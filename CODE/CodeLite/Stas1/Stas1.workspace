@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="Stas1" Database="">
+  <Project Name="Util" Path="Util/Util.project" Active="No"/>
+  <Project Name="AllegroTemplate" Path="AllegroTemplate/AllegroTemplate.project" Active="No"/>
+  <Environment>
+    <![CDATA[]]>
+  </Environment>
+  <Project Name="Ripper" Path="Ripper/Ripper.project" Active="No"/>
+  <Project Name="Test" Path="Test/Test.project" Active="No"/>
+  <Project Name="BatchPtcher" Path="BatchPtcher/BatchPtcher.project" Active="No"/>
+  <Project Name="guichan" Path="guichan/guichan.project" Active="No"/>
+  <Project Name="AnimCom" Path="AnimCom/AnimCom.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="no">
+      <Project Name="Util" ConfigName="Debug"/>
+      <Project Name="AllegroTemplate" ConfigName="Debug"/>
+      <Project Name="Ripper" ConfigName="Debug"/>
+      <Project Name="Test" ConfigName="Debug"/>
+      <Project Name="BatchPtcher" ConfigName="Debug"/>
+      <Project Name="guichan" ConfigName="Debug"/>
+      <Project Name="AnimCom" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Project Name="Util" ConfigName="Release"/>
+      <Project Name="AllegroTemplate" ConfigName="Release"/>
+      <Project Name="Ripper" ConfigName="Release"/>
+      <Project Name="Test" ConfigName="Release"/>
+      <Project Name="BatchPtcher" ConfigName="Release"/>
+      <Project Name="guichan" ConfigName="Release"/>
+      <Project Name="AnimCom" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

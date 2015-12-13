@@ -1,0 +1,7 @@
+"footsteps"
+{
+        "sounds/footsteps/wood1.wav"
+        "sounds/footsteps/wood2.wav"
+        "sounds/footsteps/wood3.wav"
+        "sounds/footsteps/wood4.wav"
+}

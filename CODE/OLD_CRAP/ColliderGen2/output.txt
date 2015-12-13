@@ -1,0 +1,1931 @@
+public class TileColliders {
+                      private var vec: Vector.<Poly>;
+                      private var w: int;
+                      private var h: int;
+	                     
+                      public function TileColliders()
+		                    {
+                        var p: Poly = null;			                     w = 6;
+	                       h = 6;
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000002, 32.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(32.000000, 15.999999));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 15.999999));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 16.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 16.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000002, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 16.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 16.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 16.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(0.000000, 16.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(32.000000, 21.333336));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 21.333336));
+p.vertexVec.push(new Vec2f(32.000000, 10.666672));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 10.666672));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 10.666664));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 10.666664));
+p.vertexVec.push(new Vec2f(32.000000, 21.333328));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 21.333328));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 10.666672));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 21.333336));
+p.vertexVec.push(new Vec2f(0.000000, 10.666672));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 21.333336));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 21.333336));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 10.666672));
+p.vertexVec.push(new Vec2f(0.000000, 21.333336));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(0.000000, 10.666672));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 10.666672));
+p.vertexVec.push(new Vec2f(32.000000, 10.666672));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 21.333328));
+p.vertexVec.push(new Vec2f(32.000000, 21.333328));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(10.666664, 32.000000));
+p.vertexVec.push(new Vec2f(10.666664, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(21.333328, 0.000000));
+p.vertexVec.push(new Vec2f(21.333328, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(8.000000, 0.000000));
+p.vertexVec.push(new Vec2f(24.000000, 0.000000));
+p.vertexVec.push(new Vec2f(24.000000, 32.000000));
+p.vertexVec.push(new Vec2f(8.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 21.333328));
+p.vertexVec.push(new Vec2f(0.000000, 21.333328));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 10.666672));
+p.vertexVec.push(new Vec2f(0.000000, 10.666672));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(21.333336, 32.000000));
+p.vertexVec.push(new Vec2f(21.333336, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(10.666672, 0.000000));
+p.vertexVec.push(new Vec2f(10.666672, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 8.000000));
+p.vertexVec.push(new Vec2f(32.000000, 8.000000));
+p.vertexVec.push(new Vec2f(32.000000, 24.000000));
+p.vertexVec.push(new Vec2f(0.000000, 24.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(31.999998, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 15.999999));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 15.999999));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 16.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(32.000000, 16.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(31.999998, 0.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(0.000000, 16.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 16.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 16.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 16.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 21.333336));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 10.666672));
+p.vertexVec.push(new Vec2f(32.000000, 21.333336));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 10.666672));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 10.666664));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 21.333328));
+p.vertexVec.push(new Vec2f(32.000000, 10.666664));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(32.000000, 21.333328));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(0.000000, 10.666672));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 10.666672));
+p.vertexVec.push(new Vec2f(0.000000, 21.333336));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 21.333336));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 21.333336));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 21.333336));
+p.vertexVec.push(new Vec2f(0.000000, 10.666672));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 10.666672));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 10.666672));
+p.vertexVec.push(new Vec2f(32.000000, 10.666672));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 21.333328));
+p.vertexVec.push(new Vec2f(32.000000, 21.333328));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(21.333336, 0.000000));
+p.vertexVec.push(new Vec2f(21.333336, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(10.666672, 32.000000));
+p.vertexVec.push(new Vec2f(10.666672, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(24.000000, 32.000000));
+p.vertexVec.push(new Vec2f(8.000000, 32.000000));
+p.vertexVec.push(new Vec2f(8.000000, 0.000000));
+p.vertexVec.push(new Vec2f(24.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 21.333328));
+p.vertexVec.push(new Vec2f(0.000000, 21.333328));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 10.666672));
+p.vertexVec.push(new Vec2f(0.000000, 10.666672));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(10.666664, 0.000000));
+p.vertexVec.push(new Vec2f(10.666664, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(21.333328, 32.000000));
+p.vertexVec.push(new Vec2f(21.333328, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 24.000000));
+p.vertexVec.push(new Vec2f(0.000000, 24.000000));
+p.vertexVec.push(new Vec2f(0.000000, 8.000000));
+p.vertexVec.push(new Vec2f(32.000000, 8.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000002, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 16.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 16.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 16.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(0.000000, 16.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000002, 32.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(32.000000, 16.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 16.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 16.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 16.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 10.666664));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 21.333328));
+p.vertexVec.push(new Vec2f(0.000000, 10.666664));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 21.333328));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 21.333336));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 10.666672));
+p.vertexVec.push(new Vec2f(0.000000, 21.333336));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(0.000000, 10.666672));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(32.000000, 21.333328));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 21.333328));
+p.vertexVec.push(new Vec2f(32.000000, 10.666664));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 10.666664));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 10.666664));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 10.666664));
+p.vertexVec.push(new Vec2f(32.000000, 21.333328));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 21.333328));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 21.333328));
+p.vertexVec.push(new Vec2f(0.000000, 21.333328));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 10.666672));
+p.vertexVec.push(new Vec2f(0.000000, 10.666672));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(10.666664, 32.000000));
+p.vertexVec.push(new Vec2f(10.666664, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(21.333328, 0.000000));
+p.vertexVec.push(new Vec2f(21.333328, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(8.000000, 0.000000));
+p.vertexVec.push(new Vec2f(24.000000, 0.000000));
+p.vertexVec.push(new Vec2f(24.000000, 32.000000));
+p.vertexVec.push(new Vec2f(8.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 10.666672));
+p.vertexVec.push(new Vec2f(32.000000, 10.666672));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 21.333328));
+p.vertexVec.push(new Vec2f(32.000000, 21.333328));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(21.333336, 32.000000));
+p.vertexVec.push(new Vec2f(21.333336, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(10.666672, 0.000000));
+p.vertexVec.push(new Vec2f(10.666672, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 8.000000));
+p.vertexVec.push(new Vec2f(32.000000, 8.000000));
+p.vertexVec.push(new Vec2f(32.000000, 24.000000));
+p.vertexVec.push(new Vec2f(0.000000, 24.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(31.999998, 0.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(0.000000, 16.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 16.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 16.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 16.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(31.999998, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 16.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 16.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 16.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(32.000000, 16.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(0.000000, 10.666664));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 10.666664));
+p.vertexVec.push(new Vec2f(0.000000, 21.333328));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 21.333328));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 21.333336));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 21.333336));
+p.vertexVec.push(new Vec2f(0.000000, 10.666672));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 10.666672));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 21.333328));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 10.666664));
+p.vertexVec.push(new Vec2f(32.000000, 21.333328));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 10.666664));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 10.666664));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 21.333328));
+p.vertexVec.push(new Vec2f(32.000000, 10.666664));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(32.000000, 21.333328));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 21.333328));
+p.vertexVec.push(new Vec2f(0.000000, 21.333328));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 10.666672));
+p.vertexVec.push(new Vec2f(0.000000, 10.666672));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(21.333336, 0.000000));
+p.vertexVec.push(new Vec2f(21.333336, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(10.666672, 32.000000));
+p.vertexVec.push(new Vec2f(10.666672, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(24.000000, 32.000000));
+p.vertexVec.push(new Vec2f(8.000000, 32.000000));
+p.vertexVec.push(new Vec2f(8.000000, 0.000000));
+p.vertexVec.push(new Vec2f(24.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 10.666672));
+p.vertexVec.push(new Vec2f(32.000000, 10.666672));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 21.333328));
+p.vertexVec.push(new Vec2f(32.000000, 21.333328));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(10.666664, 0.000000));
+p.vertexVec.push(new Vec2f(10.666664, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(21.333328, 32.000000));
+p.vertexVec.push(new Vec2f(21.333328, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 24.000000));
+p.vertexVec.push(new Vec2f(0.000000, 24.000000));
+p.vertexVec.push(new Vec2f(0.000000, 8.000000));
+p.vertexVec.push(new Vec2f(32.000000, 8.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000002));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(15.999999, 32.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(15.999999, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(16.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(16.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000002));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(16.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(16.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(16.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(16.000000, 0.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(21.333336, 32.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(10.666672, 32.000000));
+p.vertexVec.push(new Vec2f(21.333336, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(10.666672, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(10.666664, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(21.333328, 32.000000));
+p.vertexVec.push(new Vec2f(10.666664, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(21.333328, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(10.666672, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(10.666672, 0.000000));
+p.vertexVec.push(new Vec2f(21.333336, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(21.333336, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(21.333336, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(21.333336, 0.000000));
+p.vertexVec.push(new Vec2f(10.666672, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(10.666672, 0.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(10.666672, 32.000000));
+p.vertexVec.push(new Vec2f(10.666672, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(21.333328, 32.000000));
+p.vertexVec.push(new Vec2f(21.333328, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 10.666664));
+p.vertexVec.push(new Vec2f(32.000000, 10.666664));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 21.333328));
+p.vertexVec.push(new Vec2f(0.000000, 21.333328));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 8.000000));
+p.vertexVec.push(new Vec2f(32.000000, 24.000000));
+p.vertexVec.push(new Vec2f(0.000000, 24.000000));
+p.vertexVec.push(new Vec2f(0.000000, 8.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(21.333328, 0.000000));
+p.vertexVec.push(new Vec2f(21.333328, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(10.666672, 0.000000));
+p.vertexVec.push(new Vec2f(10.666672, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 21.333336));
+p.vertexVec.push(new Vec2f(32.000000, 21.333336));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 10.666672));
+p.vertexVec.push(new Vec2f(0.000000, 10.666672));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(24.000000, 0.000000));
+p.vertexVec.push(new Vec2f(24.000000, 32.000000));
+p.vertexVec.push(new Vec2f(8.000000, 32.000000));
+p.vertexVec.push(new Vec2f(8.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 0.000002));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(16.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(16.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(16.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(16.000000, 0.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000002));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(16.000000, 32.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(16.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(16.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(16.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(10.666664, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(10.666664, 0.000000));
+p.vertexVec.push(new Vec2f(21.333328, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(21.333328, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(21.333336, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(21.333336, 0.000000));
+p.vertexVec.push(new Vec2f(10.666672, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(10.666672, 0.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(21.333328, 32.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(10.666664, 32.000000));
+p.vertexVec.push(new Vec2f(21.333328, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(10.666664, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(10.666664, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(21.333328, 32.000000));
+p.vertexVec.push(new Vec2f(10.666664, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(21.333328, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(21.333328, 0.000000));
+p.vertexVec.push(new Vec2f(21.333328, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(10.666672, 0.000000));
+p.vertexVec.push(new Vec2f(10.666672, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 10.666664));
+p.vertexVec.push(new Vec2f(32.000000, 10.666664));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 21.333328));
+p.vertexVec.push(new Vec2f(0.000000, 21.333328));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 8.000000));
+p.vertexVec.push(new Vec2f(32.000000, 24.000000));
+p.vertexVec.push(new Vec2f(0.000000, 24.000000));
+p.vertexVec.push(new Vec2f(0.000000, 8.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(10.666672, 32.000000));
+p.vertexVec.push(new Vec2f(10.666672, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(21.333328, 32.000000));
+p.vertexVec.push(new Vec2f(21.333328, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 21.333336));
+p.vertexVec.push(new Vec2f(32.000000, 21.333336));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 10.666672));
+p.vertexVec.push(new Vec2f(0.000000, 10.666672));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(24.000000, 0.000000));
+p.vertexVec.push(new Vec2f(24.000000, 32.000000));
+p.vertexVec.push(new Vec2f(8.000000, 32.000000));
+p.vertexVec.push(new Vec2f(8.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 31.999998));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(15.999999, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(15.999999, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(16.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(16.000000, 32.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(0.000000, 31.999998));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(16.000000, 0.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(16.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(16.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(16.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(21.333336, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(21.333336, 32.000000));
+p.vertexVec.push(new Vec2f(10.666672, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(10.666672, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(10.666664, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(10.666664, 32.000000));
+p.vertexVec.push(new Vec2f(21.333328, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(21.333328, 32.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(10.666672, 0.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(21.333336, 0.000000));
+p.vertexVec.push(new Vec2f(10.666672, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(21.333336, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(21.333336, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(10.666672, 0.000000));
+p.vertexVec.push(new Vec2f(21.333336, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(10.666672, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(10.666672, 32.000000));
+p.vertexVec.push(new Vec2f(10.666672, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(21.333328, 32.000000));
+p.vertexVec.push(new Vec2f(21.333328, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 21.333336));
+p.vertexVec.push(new Vec2f(0.000000, 21.333336));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 10.666672));
+p.vertexVec.push(new Vec2f(32.000000, 10.666672));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 24.000000));
+p.vertexVec.push(new Vec2f(0.000000, 8.000000));
+p.vertexVec.push(new Vec2f(32.000000, 8.000000));
+p.vertexVec.push(new Vec2f(32.000000, 24.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(21.333328, 0.000000));
+p.vertexVec.push(new Vec2f(21.333328, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(10.666672, 0.000000));
+p.vertexVec.push(new Vec2f(10.666672, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 10.666664));
+p.vertexVec.push(new Vec2f(0.000000, 10.666664));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 21.333328));
+p.vertexVec.push(new Vec2f(32.000000, 21.333328));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(8.000000, 32.000000));
+p.vertexVec.push(new Vec2f(8.000000, 0.000000));
+p.vertexVec.push(new Vec2f(24.000000, 0.000000));
+p.vertexVec.push(new Vec2f(24.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(0.000000, 31.999998));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(16.000000, 0.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(16.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(16.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(16.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 31.999998));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(16.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(16.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(16.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(16.000000, 32.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(10.666664, 0.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(21.333328, 0.000000));
+p.vertexVec.push(new Vec2f(10.666664, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(21.333328, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(21.333336, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(10.666672, 0.000000));
+p.vertexVec.push(new Vec2f(21.333336, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(10.666672, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(21.333328, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(21.333328, 32.000000));
+p.vertexVec.push(new Vec2f(10.666664, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(10.666664, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(10.666664, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(10.666664, 32.000000));
+p.vertexVec.push(new Vec2f(21.333328, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+p.vertexVec.push(new Vec2f(21.333328, 32.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(21.333328, 0.000000));
+p.vertexVec.push(new Vec2f(21.333328, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(10.666672, 0.000000));
+p.vertexVec.push(new Vec2f(10.666672, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 21.333336));
+p.vertexVec.push(new Vec2f(0.000000, 21.333336));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 10.666672));
+p.vertexVec.push(new Vec2f(32.000000, 10.666672));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 24.000000));
+p.vertexVec.push(new Vec2f(0.000000, 8.000000));
+p.vertexVec.push(new Vec2f(32.000000, 8.000000));
+p.vertexVec.push(new Vec2f(32.000000, 24.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(10.666672, 32.000000));
+p.vertexVec.push(new Vec2f(10.666672, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(21.333328, 32.000000));
+p.vertexVec.push(new Vec2f(21.333328, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(32.000000, 0.000000));
+p.vertexVec.push(new Vec2f(32.000000, 10.666664));
+p.vertexVec.push(new Vec2f(0.000000, 10.666664));
+p.vertexVec.push(new Vec2f(0.000000, 0.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(0.000000, 32.000000));
+p.vertexVec.push(new Vec2f(0.000000, 21.333328));
+p.vertexVec.push(new Vec2f(32.000000, 21.333328));
+p.vertexVec.push(new Vec2f(32.000000, 32.000000));
+polyVec.push(p);
+
+p = new Poly();
+p.vertexVec.push(new Vec2f(8.000000, 32.000000));
+p.vertexVec.push(new Vec2f(8.000000, 0.000000));
+p.vertexVec.push(new Vec2f(24.000000, 0.000000));
+p.vertexVec.push(new Vec2f(24.000000, 32.000000));
+polyVec.push(p);
+
+}
+}

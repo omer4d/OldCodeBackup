@@ -1,0 +1,20 @@
+markerTypeNum, w, h;
+
+char *markerId, *markerName, *markerDescription;
+.... .......... ............ ...................
+.... .......... ............ ...................
+
+char markerListSize; int markerIndex ... ... ...
+
+
+
+
+
+
+
+/// 
+
+
+public class ActionDispatcher {
+
+};

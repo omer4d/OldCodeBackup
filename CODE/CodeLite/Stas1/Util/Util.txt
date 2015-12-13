@@ -1,0 +1,1 @@
+./Release/AABB.o ./Release/DrawVec2f.o ./Release/ImageLoader.o ./Release/Logger.o ./Release/Mat9f.o ./Release/SAT.o

@@ -1,0 +1,17 @@
+"take" 			"sounds/voice/took1.wav"
+"tooLarge" 		"sounds/voice/too_large1.wav"
+"inventoryFull" 	"sounds/voice/inventory_full1.wav"
+
+"wrongAction"
+{
+	"sounds/voice/wrong_action1.wav"
+	"sounds/voice/wrong_action2.wav"
+	"sounds/voice/wrong_action3.wav"
+}
+ 		
+"cantFind" 		"sounds/voice/cant_find1.wav"
+"severalTargets" 	"sounds/voice/theres_many1.wav"
+"outOfReach" 		"sounds/voice/too_far1.wav"
+"alreadyHave" 		"sounds/voice/already_have1.wav"
+"dontHave" 		"sounds/voice/dont_have1.wav"
+"haveSeveral" 		"sounds/voice/have_many1.wav"

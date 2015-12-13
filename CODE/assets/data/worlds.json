@@ -1,0 +1,207 @@
+{
+world0: {
+	class: com.me.bubengine.World,
+	mLevelArr: [
+		{
+			dataFile: world0_level1.lvl,
+			name: Unnamed,
+			difficulty: Easy
+		},
+		{
+			dataFile: world0_level2.lvl,
+			name: Unnamed,
+			difficulty: Easy
+		},
+		{
+			dataFile: world0_level3.lvl,
+			name: Unnamed,
+			difficulty: Easy
+		},
+		{
+			dataFile: world0_level4.lvl,
+			name: Unnamed,
+			difficulty: Easy
+		},
+		{
+			dataFile: world0_level5.lvl,
+			name: Unnamed,
+			difficulty: Easy
+		},
+		{
+			dataFile: world0_level6.lvl,
+			name: Unnamed,
+			difficulty: Easy
+		},
+		{
+			dataFile: world0_level7.lvl,
+			name: Unnamed,
+			difficulty: Easy
+		},
+		{
+			dataFile: world0_level8.lvl,
+			name: Unnamed,
+			difficulty: Easy
+		},
+		{
+			dataFile: world0_level9.lvl,
+			name: Unnamed,
+			difficulty: Easy
+		},
+		{
+			dataFile: world0_level10.lvl,
+			name: Unnamed,
+			difficulty: Easy
+		},
+		{
+			dataFile: world0_level11.lvl,
+			name: Unnamed,
+			difficulty: Easy
+		},
+		{
+			dataFile: world0_level12.lvl,
+			name: Unnamed,
+			difficulty: Easy
+		},
+		{
+			dataFile: world0_level13.lvl,
+			name: Unnamed,
+			difficulty: Easy
+		},
+		{
+			dataFile: world0_level14.lvl,
+			name: Unnamed,
+			difficulty: Easy
+		},
+		{
+			dataFile: world0_level15.lvl,
+			name: Unnamed,
+			difficulty: Easy
+		},
+		{
+			dataFile: world0_level16.lvl,
+			name: Unnamed,
+			difficulty: Easy
+		},
+		{
+			dataFile: world0_level17.lvl,
+			name: Unnamed,
+			difficulty: Easy
+		}
+	],
+	name: "Hello, World!",
+	background: backgrounds/first-world-bg.jpg,
+	duck: first-world-duck,
+	id: world0,
+	description: "Hello World!"
+},
+world1: {
+	class: com.me.bubengine.World,
+	mLevelArr: [
+		{
+			dataFile: world1_level1.lvl,
+			name: Unnamed,
+			difficulty: Easy
+		},
+		{
+			dataFile: world1_level2.lvl,
+			name: Unnamed,
+			difficulty: Easy
+		},
+		{
+			dataFile: world1_level3.lvl,
+			name: Unnamed,
+			difficulty: Easy
+		},
+		{
+			dataFile: world1_level4.lvl,
+			name: Unnamed,
+			difficulty: Easy
+		},
+		{
+			dataFile: world1_level5.lvl,
+			name: Unnamed,
+			difficulty: Easy
+		},
+		{
+			dataFile: world1_level6.lvl,
+			name: Unnamed,
+			difficulty: Easy
+		},
+		{
+			dataFile: world1_level7.lvl,
+			name: Unnamed,
+			difficulty: Easy
+		},
+		{
+			dataFile: world1_level8.lvl,
+			name: Unnamed,
+			difficulty: Easy
+		}
+	],
+	name: "Goodbye, Cruel World...",
+	background: backgrounds/eygpt-bg.jpg,
+	duck: eygpt-duck,
+	id: world1,
+	description: "Awesome World"
+},
+world2: {
+	class: com.me.bubengine.World,
+	mLevelArr: [
+		{
+			dataFile: world2_level1.lvl,
+			name: Unnamed,
+			difficulty: Easy
+		}
+	],
+	name: "Disney World",
+	background: backgrounds/alaska-bg.jpg,
+	duck: alaska-duck,
+	id: world2,
+	description: "Awesome World"
+},
+world3: {
+	class: com.me.bubengine.World,
+	mLevelArr: [
+		{
+			dataFile: world3_level1.lvl,
+			name: Unnamed,
+			difficulty: Easy
+		}
+	],
+	name: "Disney World",
+	background: backgrounds/japan-bg.jpg,
+	duck: japan-duck,
+	id: world3,
+	description: "Awesome World"
+},
+world4: {
+	class: com.me.bubengine.World,
+	mLevelArr: [
+		{
+			dataFile: world4_level1.lvl,
+			name: Unnamed,
+			difficulty: Easy
+		}
+	],
+	name: "Disney World",
+	background: backgrounds/carribean-bg.jpg,
+	duck: carribean-duck,
+	id: world4,
+	description: "Awesome World"
+},
+world5: {
+	class: com.me.bubengine.World,
+	mLevelArr: [
+		{
+			dataFile: world5_level1.lvl,
+			name: Unnamed,
+			difficulty: Easy
+		}
+	],
+	name: "Disney World",
+	background: backgrounds/indian-bg.jpg,
+	duck: indian-duck,
+	id: world5,
+	description: "Awesome World"
+}
+}

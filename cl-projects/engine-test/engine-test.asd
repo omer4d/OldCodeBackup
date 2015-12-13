@@ -1,0 +1,12 @@
+;;;; engine.asd
+
+(asdf:defsystem #:engine-test
+  :description "Describe engine here"
+  :author "Your Name <your.name@example.com>"
+  :license "Specify license here"
+  :depends-on ("util" "frp" "symcomp")
+  :serial t
+  :components ((:file "package")
+	       (:file "affine2")
+	       (:file "scenegraph")
+	       (:file "engine")))

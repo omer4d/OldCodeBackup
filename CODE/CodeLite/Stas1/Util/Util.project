@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Project Name="Util" InternalType="Library">
+  <Plugins>
+    <Plugin Name="qmake">
+      <![CDATA[00010001N0007Release000000000000]]>
+    </Plugin>
+  </Plugins>
+  <Description/>
+  <Dependencies/>
+  <VirtualDirectory Name="Util">
+    <File Name="AABB.cpp"/>
+    <File Name="AABB.hpp"/>
+    <File Name="Animation.hpp"/>
+    <File Name="Buffer.hpp"/>
+    <File Name="ByteOrder.hpp"/>
+    <File Name="CInStream.hpp"/>
+    <File Name="CircularBuffer.hpp"/>
+    <File Name="Col32.hpp"/>
+    <File Name="Col3f.hpp"/>
+    <File Name="CommandParser.hpp"/>
+    <File Name="CompositeSprite.hpp"/>
+    <File Name="CompositeSpriteElement.hpp"/>
+    <File Name="Controller.hpp"/>
+    <File Name="ConvexClipper.hpp"/>
+    <File Name="COutStream.hpp"/>
+    <File Name="DrawVec2f.cpp"/>
+    <File Name="DrawVec2f.hpp"/>
+    <File Name="Event.hpp"/>
+    <File Name="EventTimer.hpp"/>
+    <File Name="FBO.hpp"/>
+    <File Name="Frame.hpp"/>
+    <File Name="GridTraverser.hpp"/>
+    <File Name="ImageLoader.cpp"/>
+    <File Name="ImageLoader.hpp"/>
+    <File Name="InputField.hpp"/>
+    <File Name="Int.hpp"/>
+    <File Name="Interval.hpp"/>
+    <File Name="Keyboard.hpp"/>
+    <File Name="Lexcast.hpp"/>
+    <File Name="Logger.cpp"/>
+    <File Name="Logger.hpp"/>
+    <File Name="Mat9f.cpp"/>
+    <File Name="Mat9f.hpp"/>
+    <File Name="MissingFileException.hpp"/>
+    <File Name="Mouse.hpp"/>
+    <File Name="Parser.hpp"/>
+    <File Name="Poly.hpp"/>
+    <File Name="Proxiable.hpp"/>
+    <File Name="Proxy.hpp"/>
+    <File Name="Ray.hpp"/>
+    <File Name="Readable.hpp"/>
+    <File Name="Reader.hpp"/>
+    <File Name="ResourceManager.hpp"/>
+    <File Name="SafeEvent.hpp"/>
+    <File Name="SafeEventDispatcher.hpp"/>
+    <File Name="SafeEventListener.hpp"/>
+    <File Name="SafePtr.hpp"/>
+    <File Name="SAT.cpp"/>
+    <File Name="SAT.hpp"/>
+    <File Name="Shape.hpp"/>
+    <File Name="Sprite.hpp"/>
+    <File Name="SpriteBase.hpp"/>
+    <File Name="SpriteClip.hpp"/>
+    <File Name="SpriteData.hpp"/>
+    <File Name="SpriteManager.hpp"/>
+    <File Name="SpriteSheet.hpp"/>
+    <File Name="SpriteSheetManager.hpp"/>
+    <File Name="StreamUtil.hpp"/>
+    <File Name="Texture.hpp"/>
+    <File Name="Timer.hpp"/>
+    <File Name="Util.hpp"/>
+    <File Name="Vec2f.hpp"/>
+    <File Name="Vec3f.hpp"/>
+    <File Name="Writable.hpp"/>
+    <File Name="Writer.hpp"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="VerletPhysics">
+    <File Name="VerletPhysics/Constraint.hpp"/>
+    <File Name="VerletPhysics/Particle.hpp"/>
+    <File Name="VerletPhysics/SpringCon.hpp"/>
+    <File Name="VerletPhysics/StaticSpringCon.hpp"/>
+    <File Name="VerletPhysics/StaticStickCon.hpp"/>
+    <File Name="VerletPhysics/StickCon.hpp"/>
+    <File Name="VerletPhysics/VerletPhysics.hpp"/>
+  </VirtualDirectory>
+  <Settings Type="Static Library">
+    <GlobalSettings>
+      <Compiler Options="" C_Options="" Assembler="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+    <Configuration Name="Debug" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g" C_Options="-g" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" UseDifferentPCHFlags="no" PCHFlags="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/lib$(ProjectName).a" IntermediateDirectory="./Debug" Command="" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName/>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Static Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="" C_Options="" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" UseDifferentPCHFlags="no" PCHFlags="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/lib$(ProjectName).a" IntermediateDirectory="./Release" Command="" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName/>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+  </Settings>
+  <Dependencies Name="Debug"/>
+  <Dependencies Name="Release"/>
+</CodeLite_Project>

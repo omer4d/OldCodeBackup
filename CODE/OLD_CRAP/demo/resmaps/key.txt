@@ -1,0 +1,6 @@
+"take"		"sounds/key_take1.wav"
+"drop"
+{
+	"sounds/key_drop1.wav"
+	"sounds/key_drop2.wav"
+}
